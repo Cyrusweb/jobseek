@@ -13,7 +13,7 @@ function Nav() {
   return (
     <>
       <main>
-        <nav className="bg-[#17191F] w-full drop-shadow-sm flex justify-between md:justify-around p-4 items-center">
+        <nav className=" w-full drop-shadow-sm flex justify-between md:justify-around p-4 items-center">
           <img
             src={logo}
             alt="logo"
@@ -23,7 +23,7 @@ function Nav() {
             <ul
               className={`md:flex ${
                 toggle ? "block" : "hidden"
-              } md:relative md:top-0 absolute text-center top-14 p-2 md:space-y-0 space-y-5 gap-4 md:bg-transparent right-0 left-0 bg-[#17191F] text-white font-inter text-[18px]`}
+              } md:relative md:top-0 absolute text-center  top-14 p-2 md:space-y-0 space-y-5 gap-4 md:bg-transparent right-0 left-0 bg-[#0d0e11] text-white md:font-light  font-inter text-[18px]`}
             >
               <li className="font-inter">Jobs</li>
               <li>Projects</li>
