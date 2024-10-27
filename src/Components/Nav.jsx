@@ -22,7 +22,7 @@ function Nav() {
           <div>
             <ul
               className={`md:flex ${
-                toggle ? "hidden" : ""
+                toggle ? "block" : "hidden"
               } md:relative md:top-0 absolute text-center top-14 p-2 md:space-y-0 space-y-5 gap-4 md:bg-transparent right-0 left-0 bg-[#17191F] text-white font-inter text-[18px]`}
             >
               <li className="font-inter">Jobs</li>
