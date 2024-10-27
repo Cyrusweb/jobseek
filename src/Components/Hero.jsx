@@ -26,7 +26,7 @@ function Hero() {
                 <span className="text-[#848484]">dream job with jobBoard</span>
               </p>
 
-              <p className="text-[18px]  lg:w-[366.72px] font-[300] md:text-left  leading-[27px] text-center mt-[27px] text-white">
+              <p className="text-[14px] md:text-[18px]  lg:w-[366.72px] font-[300] md:text-left  leading-[27px] text-center mt-[27px] text-white">
                 Growing a business means having the right people in your team.
               </p>
             </div>
