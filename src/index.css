@@ -24,7 +24,7 @@ ul li {
   position: relative;
   padding: 2px;
   background: linear-gradient(180deg, #6857f6, #a549e2);
-  /* border-radius: 60px; */
+  border-radius: 60px;
   padding: 7px;
   width: 100%;
 }
