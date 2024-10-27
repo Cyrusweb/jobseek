@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/Link.svg";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
-
+import { IoMdClose } from "react-icons/io";
 function Nav() {
   const [toggle, setToggle] = useState(false);
 
@@ -37,7 +37,16 @@ function Nav() {
             </ul>
           </div>
           <div className="md:hidden" onClick={handle}>
-            <CiMenuFries size={25} className="text-white font-bold" />
+            {toggle ? (
+              //   <CiMenuFries size={25} className="text-white font-bold" />
+              <IoMdClose
+                size={25}
+                className="text-white font-bold"
+                onClick={handle}
+              />
+            ) : (
+              <CiMenuFries size={25} className="text-white font-bold" />
+            )}
           </div>
           <div className="md:flex items-center gap-4 hidden">
             <div>
