@@ -13,7 +13,7 @@ function Nav() {
   return (
     <>
       <main>
-        <nav className=" w-full drop-shadow-sm flex justify-between md:justify-around p-4 items-center">
+        <nav className=" w-full drop-shadow-sm flex justify-between p-4 items-center">
           <img
             src={logo}
             alt="logo"
