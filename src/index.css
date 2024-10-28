@@ -63,7 +63,7 @@ body {
 
 .marquee {
   display: inline-flex;
-  animation: scroll 30s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 
 @keyframes scroll {
@@ -94,7 +94,7 @@ body {
 
 .marquee_2 {
   display: inline-flex;
-  animation: scroll-right 30s linear infinite;
+  animation: scroll-right 80s linear infinite;
 }
 
 @keyframes scroll-right {

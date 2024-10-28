@@ -10,11 +10,11 @@ function About() {
           <span className="text-[#848484]"> future start here </span>
         </p>
         <div className="mx-[20px]vmd:mx-0 md:flex items-center mt-[29px] font-[400] justify-between">
-          <p className="text-[18px] text-white leading-[27px] md:text-[16px] md:w-[80%] lg:w-[50%]">
+          <p className="text-[14px] text-white leading-[27px] md:text-[16px] md:w-[80%] lg:w-[50%]">
             Receive a customized salary approximation based on your profile.
             Access reviews for more than 600,000 companies worldwide.
           </p>
-          <button className="bg-white w-[142.36px] rounded-full px-2 mt-12 md:mt-0 py-2  text-[16px]">
+          <button className="bg-white w-[142.36px] rounded-full px-2 mt-12 md:mt-0 py-2  text-[13px]">
             learn more
           </button>
         </div>
