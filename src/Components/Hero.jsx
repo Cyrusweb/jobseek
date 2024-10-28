@@ -23,8 +23,8 @@ function Hero() {
               </p>
             </div>
             <div>
-              <p className="  lg:w-[491.39px]  lg:text-[52px] lg:font-medium lg:leading-[62.4px] md:text-left mt-[30px]  text-[#FFFFFF] text-[35px] font-medium leading-[49.2px] text-center">
-                Find your
+              <p className=" md:mx-0 mx-[15px]  lg:w-[491.39px]  lg:text-[52px] lg:font-medium lg:leading-[62.4px] md:text-left mt-[30px]  text-[#FFFFFF] text-[35px] font-medium leading-[49.2px] text-center">
+                Find your{" "}
                 <span className="text-[#848484]">dream job with jobBoard</span>
               </p>
 
@@ -33,7 +33,7 @@ function Hero() {
               </p>
             </div>
             {/* input s5ec */}
-            <div className="  my-[15px]  w-full relative ">
+            <div className="  my-[15px] mt-[58px]  w-full relative ">
               <article className="border-[1px] px-8 py-3 justify-cente  border-[#27213C] flex items-center rounded-full">
                 <CiSearch className="text-white relative top-[3px]" size={20} />
                 <input
