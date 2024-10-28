@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
       <main className="mt-[20px] px-4">
-        <article className=" md:flex md:mt-[2rem] justify-around md:m-[3rem] flex-row-reverse">
+        <article className=" md:flex md:mt-[3rem] mt-[3rem] justify-around md:m-[3rem] flex-row-reverse">
           <img
             src={banner}
             alt="banner"
@@ -23,9 +23,12 @@ function Hero() {
               </p>
             </div>
             <div>
-              <p className=" md:mx-0 mx-[15px]  lg:w-[491.39px]  lg:text-[52px] lg:font-medium lg:leading-[62.4px] md:text-left mt-[30px]  text-[#FFFFFF] text-[35px] font-medium leading-[49.2px] text-center">
-                Find your{" "}
-                <span className="text-[#848484]">dream job with jobBoard</span>
+              <p className="  md:mx-0   lg:w-[491.39px]  lg:text-[52px] lg:font-medium lg:leading-[62.4px] md:text-left mt-[30px]  text-[#FFFFFF] text-[37px] font-medium leading-[39.2px] text-center">
+                Find your{"   "}
+                <span className="text-[#848484]">
+                  dream <br />
+                  job with jobBoard
+                </span>
               </p>
 
               <p className="text-[14px] md:text-[18px]  lg:w-[366.72px] font-[300] md:text-left  leading-[27px] text-center mt-[27px] text-white">

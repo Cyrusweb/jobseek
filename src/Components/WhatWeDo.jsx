@@ -23,7 +23,7 @@ function WhatWeDo() {
 
           {/* second */}
           <div class="marquee-container_2 mb-4">
-            <ul class="marquee_2 flex items-center space-x-4">
+            <ul class="marquee_2 flex flex-row-reverse items-center space-x-4">
               <li>Data Analyst</li>
               <li>Data Scientist</li>
               <li>Business Intelligence Analyst</li>
