@@ -13,28 +13,36 @@ function Nav() {
   return (
     <>
       <main>
-        <nav className=" w-full drop-shadow-sm bg-[#0d0e11] md:bg-[#17191F] right-0 fixed top-0 flex justify-between p-4 items-center">
+        <nav className=" w-full drop-shadow-sm z-10 bg-[#0d0e11] backdrop-blur-sm left-0 md:bg-[#17191F] right-0 fixed top-0 flex justify-between p-4 items-center">
           <img
             src={logo}
             alt="logo"
             className="md:w-[189.19px] h-[30px] object-contain"
           />
-          <div>
-            <ul
-              className={`md:flex ${
-                toggle ? "block" : "hidden"
-              } md:relative md:top-0 absolute text-center  top-14 p-2 md:space-y-0 space-y-5 gap-4 md:bg-transparent right-0 left-0 bg-[#0d0e11] text-white md:font-light  font-inter text-[18px]`}
+          <div className="">
+            <div
+              className={`md:flex  ${
+                toggle ? "block bmd" : "hidden"
+              } md:relative md:top-0 absolute   w-[60%]   z-0   mx-4 rounded-lg mt-3    right-0    top-14 md:bg-transparent  bg-[#ffff] text-white md:font-light    font-inter`}
             >
-              <li className="font-inter">Jobs</li>
-              <li>Projects</li>
-              <li>Client</li>
-              <li>Chat</li>
-              <li className="md:hidden block">
-                <button className="vl_me">
-                  <span className="inner">Sign up Free</span>
-                </button>
-              </li>
-            </ul>
+              <ul className="md:flex md:space-x-[25px]   mb-4  md:text-white  text-[13px]  md:text-[18px]  m-auto justify-center  md:space-y-0 space-y-[8px]">
+                <li className=" md:mt-0 mt-4 border-[1px] cool w-[80%] rounded-full pl-4 pr-4 pt-2 pb-2  md:w-auto  m-auto text-center">
+                  Jobs
+                </li>
+                <li className=" md:mt-0  pl-4 pr-4 pt-2 pb-2  border-[1px] cool  px-4 w-[80%] md:w-auto m-auto rounded-full text-center">
+                  Projects
+                </li>
+                <li className=" md:mt-0   border-[1px] cool pl-4 pr-4 pt-2 pb-2   w-[80%] md:w-auto   m-auto px-4 rounded-full text-center">
+                  Client
+                </li>
+                <li className=" md:mt-0  cool     border-pl-4 pl-4 pr-4 pt-2 pb-2 pb-2gray-400 w-[80%] md:w-auto   m-auto  px-4 rounded-full text-center">
+                  Chat
+                </li>
+                <li className=" md:mt-0 md:hidden bg-[#904EE9]  md:pl-0 md:pr-0   border-pl-4 pl-4 pr-4 pt-2 pb-2 pb-2gray-400 w-[80%] md:w-auto   m-auto   rounded-full text-center">
+                  Sign up Free
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="md:hidden" onClick={handle}>
             {toggle ? (

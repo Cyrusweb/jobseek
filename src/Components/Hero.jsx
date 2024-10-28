@@ -13,8 +13,8 @@ function Hero() {
             className="w-[330px] mt-[14px] md:w-[350px] lg:w-[569.89px] px-[30px] pt-[-6px]"
           />
           <section className="">
-            <div className="border-[1px] w-[309.58px]  text-left lg:w-[309.58px]   mt-[45.3px] px-[9.2px] justify-center border-[#484848] mx-[40.2] items-center rounded-full  flex">
-              <article className="text-white pl-[21px] text-[12px] mr-[21px] py-[11px]  font-[400] leading-[19.2px]">
+            <div className="border-[1px] md:w-[70%]  pr-9   mt-[45.3px]   justify-center border-[#484848]  items-center rounded-full  flex">
+              <article className="text-white  m-auto text-[12px] mr-[21px] py-[11px]  font-[400] leading-[19.2px]">
                 The best job seekers
               </article>
               <p className="border-[#484848] flex items-center gap-2 border-l-2 pl-[14px] explore">
@@ -37,15 +37,17 @@ function Hero() {
             </div>
             {/* input s5ec */}
             <div className="  my-[15px] mt-[58px]  w-full relative ">
-              <article className="border-[1px] px-8 py-3 justify-cente  border-[#27213C] flex items-center rounded-full">
+              <article className="border-[1px] px-8 py-3  border-[#27213C] flex items-center rounded-full">
                 <CiSearch className="text-white relative top-[3px]" size={20} />
                 <input
                   type="text"
-                  className="bg-transparent focus:outline-none pl-1 text-white"
+                  className="bg-transparent focus:outline-none pl-1 placeholder:text-[16px]  text-white"
                   placeholder="job title"
                 />
                 <button className="bg-white   ml-16 py-2 absolute right-[1rem]  gap-2  px-4  flex items-center rounded-full ">
-                  <p className="font-[300]">Find jobs</p>
+                  <p className="font-[400] text-[13px] md:text-[16px]">
+                    Find jobs
+                  </p>
                   <FaArrowRight className="text-[#A34AE3]" />
                 </button>
               </article>
