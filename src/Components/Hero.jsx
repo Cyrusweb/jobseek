@@ -5,7 +5,7 @@ import banner from "../assets/banner (1).svg";
 function Hero() {
   return (
     <>
-      <main className="mt-[20px] px-4">
+      <main className="md:mt-[90px] px-4">
         <article className=" md:flex md:mt-[3rem] mt-[3rem] justify-around md:m-[3rem] flex-row-reverse">
           <img
             src={banner}
@@ -13,7 +13,7 @@ function Hero() {
             className="w-[330px] mt-[14px] md:w-[350px] lg:w-[569.89px] px-[30px] pt-[-6px]"
           />
           <section className="">
-            <div className="border-[1px] md:w-[70%]  pr-9   mt-[45.3px]   justify-center border-[#484848]  items-center rounded-full  flex">
+            <div className="border-[1px] lg:w-[60%]  pr-9   mt-[45.3px]   justify-center border-[#484848]  items-center rounded-full  flex">
               <article className="text-white  m-auto text-[12px] mr-[21px] py-[11px]  font-[400] leading-[19.2px]">
                 The best job seekers
               </article>

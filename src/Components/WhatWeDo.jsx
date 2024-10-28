@@ -37,6 +37,11 @@ function WhatWeDo() {
               <li>Supply Chain Management Software Analyst</li>
             </ul>
           </div>
+          <div className=" md:hidden flex justify-center mt-8">
+            <button className="bg-white w-[142.36px] rounded-full px-2 py-2 text-[16px]">
+              View all
+            </button>
+          </div>
         </article>
       </main>
     </>

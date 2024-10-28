@@ -29,13 +29,13 @@ function Nav() {
                 <li className=" md:mt-0 mt-4 border-[1px] cool w-[80%] rounded-full pl-4 pr-4 pt-2 pb-2  md:w-auto  m-auto text-center">
                   Jobs
                 </li>
-                <li className=" md:mt-0  pl-4 pr-4 pt-2 pb-2  border-[1px] cool  px-4 w-[80%] md:w-auto m-auto rounded-full text-center">
+                <li className=" md:mt-0  pl-4 pr-4 pt-2 pb-2  border-[1px] cool  w-[80%] md:w-auto m-auto rounded-full text-center">
                   Projects
                 </li>
-                <li className=" md:mt-0   border-[1px] cool pl-4 pr-4 pt-2 pb-2   w-[80%] md:w-auto   m-auto px-4 rounded-full text-center">
+                <li className=" md:mt-0   border-[1px] cool pl-4 pr-4 pt-2 pb-2   w-[80%] md:w-auto   m-auto  rounded-full text-center">
                   Client
                 </li>
-                <li className=" md:mt-0  cool     border-pl-4 pl-4 pr-4 pt-2 pb-2 pb-2gray-400 w-[80%] md:w-auto   m-auto  px-4 rounded-full text-center">
+                <li className=" md:mt-0  cool     border-pl-4 md:pl-4 mdpr-4 pt-2 pb-2 pb-2gray-400 w-[80%] md:w-auto   m-auto rounded-full text-center">
                   Chat
                 </li>
                 <li className=" md:mt-0 md:hidden bg-[#904EE9]  md:pl-0 md:pr-0   border-pl-4 pl-4 pr-4 pt-2 pb-2 pb-2gray-400 w-[80%] md:w-auto   m-auto   rounded-full text-center">
