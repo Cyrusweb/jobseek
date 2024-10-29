@@ -14,7 +14,7 @@ function About() {
             Receive a customized salary approximation based on your profile.
             Access reviews for more than 600,000 companies worldwide.
           </p>
-          <button className="bg-white w-[142.36px] rounded-full px-2 mt-12 md:mt-0 py-2  text-[10px]">
+          <button className="bg-white w-[142.36px] mt-8 rounded-full px-2 py-2 text-[13px]">
             learn more
           </button>
         </div>

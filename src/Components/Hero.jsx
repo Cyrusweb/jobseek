@@ -44,7 +44,7 @@ function Hero() {
                   className="bg-transparent focus:outline-none pl-1 placeholder:text-[16px]  text-white"
                   placeholder="job title"
                 />
-                <button className="bg-white   ml-16 py-2 absolute right-[1rem]  gap-2  px-4  flex items-center rounded-full ">
+                <button className="bg-white  ml-16 py-2 absolute right-[1rem]  gap-2  px-4  flex items-center rounded-full ">
                   <p className="font-[400] text-[13px] md:text-[16px]">
                     Find jobs
                   </p>
