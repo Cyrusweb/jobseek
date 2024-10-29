@@ -1,6 +1,6 @@
 [
   {
-    "id": 12,
+    "id": 1,
     "title": "Financial Data Analyst",
     "price": "$70",
     "location": "Seattle, WA",
@@ -8,15 +8,15 @@
     "available": "apply"
   },
   {
-    "id": 13,
+    "id": 2,
     "title": "Machine Learning Engineer",
     "price": "$95",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 14,
+    "id": 3,
     "title": "Cybersecurity Analyst",
     "price": "$85",
     "location": "Washington, D.C.",
@@ -24,7 +24,7 @@
     "available": "apply"
   },
   {
-    "id": 15,
+    "id": 4,
     "title": "Marketing Data Analyst",
     "price": "$60",
     "location": "Phoenix, AZ",
@@ -32,7 +32,7 @@
     "available": "apply"
   },
   {
-    "id": 16,
+    "id": 5,
     "title": "Database Administrator",
     "price": "$78",
     "location": "Miami, FL",
@@ -40,15 +40,15 @@
     "available": "apply"
   },
   {
-    "id": 17,
+    "id": 6,
     "title": "System Analyst",
     "price": "$65",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 18,
+    "id": 7,
     "title": "IT Project Manager",
     "price": "$90",
     "location": "New York, NY",
@@ -56,7 +56,7 @@
     "available": "apply"
   },
   {
-    "id": 19,
+    "id": 8,
     "title": "Cloud Solutions Architect",
     "price": "$100",
     "location": "San Jose, CA",
@@ -64,23 +64,23 @@
     "available": "apply"
   },
   {
-    "id": 20,
+    "id": 9,
     "title": "Web Developer",
     "price": "$55",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 21,
+    "id": 10,
     "title": "UX Designer",
     "price": "$75",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 22,
+    "id": 11,
     "title": "Full Stack Developer",
     "price": "$85",
     "location": "Austin, TX",
@@ -88,7 +88,7 @@
     "available": "apply"
   },
   {
-    "id": 23,
+    "id": 12,
     "title": "Software Tester",
     "price": "$50",
     "location": "Detroit, MI",
@@ -96,7 +96,7 @@
     "available": "apply"
   },
   {
-    "id": 24,
+    "id": 13,
     "title": "Network Engineer",
     "price": "$70",
     "location": "Orlando, FL",
@@ -104,23 +104,22 @@
     "available": "apply"
   },
   {
-    "id": 25,
+    "id": 14,
     "title": "Big Data Engineer",
-    "price": "$95",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 26,
+    "id": 15,
     "title": "AI Research Scientist",
     "price": "$120",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 27,
+    "id": 16,
     "title": "SEO Specialist",
     "price": "$55",
     "location": "San Diego, CA",
@@ -128,7 +127,7 @@
     "available": "apply"
   },
   {
-    "id": 28,
+    "id": 17,
     "title": "Frontend Engineer",
     "price": "$80",
     "location": "Boston, MA",
@@ -136,15 +135,15 @@
     "available": "apply"
   },
   {
-    "id": 29,
+    "id": 18,
     "title": "Mobile App Developer",
     "price": "$75",
-    "location": "Remote",
+    "location": "Seattle, WA",
     "workType": "Remote",
     "available": "apply"
   },
   {
-    "id": 30,
+    "id": 19,
     "title": "IT Support Specialist",
     "price": "$45",
     "location": "Columbus, OH",
@@ -152,10 +151,250 @@
     "available": "apply"
   },
   {
-    "id": 31,
+    "id": 20,
     "title": "Product Manager",
     "price": "$110",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 21,
+    "title": "Data Scientist",
+    "price": "$130",
     "location": "Remote",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 22,
+    "title": "Quality Assurance Engineer",
+    "price": "$65",
+    "location": "Chicago, IL",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 23,
+    "title": "Technical Writer",
+    "price": "$60",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 24,
+    "title": "Network Administrator",
+    "price": "$70",
+    "location": "San Francisco, CA",
+    "workType": "Onsite",
+    "available": "apply"
+  },
+  {
+    "id": 25,
+    "title": "DevOps Engineer",
+    "price": "$100",
+    "location": "Los Angeles, CA",
+    "workType": "Hybrid",
+    "available": "apply"
+  },
+  {
+    "id": 26,
+    "title": "Business Analyst",
+    "price": "$85",
+    "location": "Atlanta, GA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 27,
+    "title": "Blockchain Developer",
+    "price": "$120",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 28,
+    "title": "Game Developer",
+    "price": "$90",
+    "location": "Austin, TX",
+    "workType": "Hybrid",
+    "available": "apply"
+  },
+  {
+    "id": 29,
+    "title": "Data Engineer",
+    "price": "$95",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 30,
+    "title": "Cloud Engineer",
+    "price": "$110",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 31,
+    "title": "Information Security Analyst",
+    "price": "$95",
+    "location": "San Francisco, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 32,
+    "title": "Digital Marketing Specialist",
+    "price": "$70",
+    "location": "Atlanta, GA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 33,
+    "title": "Product Designer",
+    "price": "$85",
+    "location": "Denver, CO",
+    "workType": "Hybrid",
+    "available": "apply"
+  },
+  {
+    "id": 34,
+    "title": "Systems Architect",
+    "price": "$130",
+    "location": "Miami, FL",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 35,
+    "title": "IT Consultant",
+    "price": "$90",
+    "location": "Chicago, IL",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 36,
+    "title": "Salesforce Developer",
+    "price": "$100",
+    "location": "Los Angeles, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 37,
+    "title": "Mobile UI/UX Designer",
+    "price": "$75",
+    "location": "Remote",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 38,
+    "title": "Embedded Systems Engineer",
+    "price": "$95",
+    "location": "San Diego, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 39,
+    "title": "Game Designer",
+    "price": "$85",
+    "location": "San Diego, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 40,
+    "title": "Network Security Engineer",
+    "price": "$120",
+    "location": "Austin, TX",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 41,
+    "title": "Site Reliability Engineer",
+    "price": "$110",
+    "location": "Seattle, WA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 42,
+    "title": "Cloud Security Engineer",
+    "price": "$120",
+    "location": "Denver, CO",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 43,
+    "title": "Data Warehouse Engineer",
+    "price": "$110",
+    "location": "New York, NY",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 44,
+    "title": "E-commerce Specialist",
+    "price": "$70",
+    "location": "San Jose, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 45,
+    "title": "Systems Engineer",
+    "price": "$85",
+    "location": "San Francisco, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 46,
+    "title": "Web Security Analyst",
+    "price": "$95",
+    "location": "Chicago, IL",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 47,
+    "title": "Mobile Application Tester",
+    "price": "$60",
+    "location": "Denver, CO",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 48,
+    "title": "Augmented Reality Developer",
+    "price": "$100",
+    "location": "Los Angeles, CA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 49,
+    "title": "Computer Vision Engineer",
+    "price": "$110",
+    "location": "Atlanta, GA",
+    "workType": "Remote",
+    "available": "apply"
+  },
+  {
+    "id": 50,
+    "title": "Artificial Intelligence Engineer",
+    "price": "$130",
+    "location": "Austin, TX",
     "workType": "Remote",
     "available": "apply"
   }

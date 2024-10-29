@@ -9,6 +9,9 @@ body {
   font-style: normal;
   background-color: #0d0e11;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .vl {
   position: relative;
@@ -63,7 +66,7 @@ body {
 
 .marquee {
   display: inline-flex;
-  animation: scroll 80s linear infinite;
+  animation: scroll 122s linear infinite;
 }
 
 @keyframes scroll {
@@ -94,7 +97,7 @@ body {
 
 .marquee_2 {
   display: inline-flex;
-  animation: scroll-right 80s linear infinite;
+  animation: scroll-right 122s linear infinite;
 }
 
 @keyframes scroll-right {
@@ -116,20 +119,20 @@ body {
     border: none;
     /* padding: 0px 20px; */
   }
+}
 
-  ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-    margin-top: 1rem;
-  }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  margin-top: 1rem;
+}
 
-  ::-webkit-scrollbar-track {
-    background: #17191f;
-  }
+::-webkit-scrollbar-track {
+  background: #17191f;
+}
 
-  ::-webkit-scrollbar-thumb {
-    background-color: #17191f;
-    border-radius: 10px;
-    border: 2px solid transparent;
-  }
+::-webkit-scrollbar-thumb {
+  background-color: #2d2646;
+  border-radius: 50px;
+  border: 2px solid transparent;
 }

@@ -1,12 +1,13 @@
+// JobList.js
 import React from "react";
-import loaction from "../assets/location.svg";
+import location from "../assets/location.svg";
 import price from "../assets/price.svg";
 import remote from "../assets/remote.svg";
 import ListLeft from "./Json/ListLeft.json";
 
 function JobList() {
   return (
-    <main className="bg-[#13151A] lg:w-[80%] md:mx-12 p-3 md:m-auto m-3 border-[1px] rounded-lg md:p-4 border-[#2D2646]">
+    <main className="bg-[#13151A]  md:mx-12 p-3 md:m-auto m-3 border-[1px] rounded-lg md:p-4 border-[#2D2646]">
       <section>
         <div className="flex items-center justify-between border-b-[2px] pb-3 border-[#202125]">
           <p className="text-[#848484]">Jobs</p>
@@ -14,10 +15,11 @@ function JobList() {
         </div>
 
         {/* Render job cards dynamically */}
-        <section className="md:grid grid-cols-2 gap-x-2 overflow-y-auto  h-[60vh]">
-          {ListLeft.map((job, index) => (
+        <section className="md:grid grid-cols-2 gap-x-2 overflow-y-auto h-[60vh]">
+          {ListLeft.map((job) => (
             <div
-              key={index}
+              key={job.id}
+              id={`job-${job.id}`} // id
               className="jobs text-white border-[1px] border-[#2D2646] flex flex-col gap-3 mt-[20px] rounded-lg p-2"
             >
               <main className="md:flex items-center justify-between">
@@ -26,11 +28,15 @@ function JobList() {
                   <div className="md:flex gap-4 mt-2 items-center">
                     <div className="flex items-center gap-2">
                       <img
-                        src={loaction}
+                        src={location}
                         alt="logo_location"
                         className="w-[16px] h-[16px]"
                       />
-                      <p>{job.location}</p>
+                      <p>
+                        {job.location && job.location.length > 10
+                          ? `${job.location.slice(0, 10)}...`
+                          : job.location}
+                      </p>
                     </div>
                     <div className="flex items-center gap-2">
                       <img
