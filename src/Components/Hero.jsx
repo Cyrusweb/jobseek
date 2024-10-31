@@ -7,11 +7,13 @@ function Hero() {
     <>
       <main className="md:mt-[90px] px-4">
         <article className=" md:flex md:mt-[3rem] mt-[3rem] justify-around md:m-[3rem] flex-row-reverse">
-          <img
-            src={banner}
-            alt="banner"
-            className="w-[330px] mt-[14px] md:w-[350px] lg:w-[569.89px] px-[30px] pt-[-6px]"
-          />
+          <figure>
+            <img
+              src={banner}
+              alt="banner"
+              className="w-[330px] mt-[14px] md:w-[350px] lg:w-[569.89px] px-[30px] pt-[-6px]"
+            />
+          </figure>
           <section className="">
             <div className="border-[1px] lg:w-[60%]  pr-9   mt-[45.3px]   justify-center border-[#484848]  items-center rounded-full  flex">
               <article className="text-white  m-auto text-[12px] mr-[21px] py-[11px]  font-[400] leading-[19.2px]">

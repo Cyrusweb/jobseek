@@ -132,7 +132,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #2d2646;
+  background-color: #17191f;
   border-radius: 50px;
   border: 2px solid transparent;
+}
+
+.btn {
+  background: linear-gradient(180deg, #6857f6, #a549e2);
 }

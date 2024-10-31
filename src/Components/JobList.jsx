@@ -15,7 +15,7 @@ function JobList() {
         </div>
 
         {/* Render job cards dynamically */}
-        <section className="md:grid grid-cols-2 gap-x-2 overflow-y-auto h-[60vh]">
+        <section className="md:grid grid-cols-2 gap-x-2 overflow-y-auto h-[60vh] ">
           {ListLeft.map((job) => (
             <div
               key={job.id}

@@ -12,13 +12,13 @@ function Home() {
       <Nav />
       <Hero />
       <WhatWeDo />
-      <main className="flex justify-center items-center">
-        <div>
-          <About />
-          <JobList />
-          <HowThose />
-        </div>
-      </main>
+      {/* <main className="flex justify-center overflow-x-auto items-center"> */}
+      <div>
+        <About />
+        <JobList />
+        <HowThose />
+      </div>
+      {/* </main> */}
     </>
   );
 }
