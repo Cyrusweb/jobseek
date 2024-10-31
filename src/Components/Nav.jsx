@@ -40,7 +40,7 @@ function Nav() {
                       <img
                         src={logo}
                         alt="logo"
-                        className="w-[100px] h-[30px] object-contain"
+                        className="w-[160px] h-[30px] object-contain"
                       />
                     </figure>
                     <IoMdClose
