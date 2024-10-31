@@ -4,6 +4,8 @@ import Hero from "../Components/Hero";
 import WhatWeDo from "../Components/WhatWeDo";
 import About from "../Components/About";
 import JobList from "../Components/JobList";
+import HowThose from "./HowThose";
+// HowThose
 function Home() {
   return (
     <>
@@ -14,6 +16,7 @@ function Home() {
         <div>
           <About />
           <JobList />
+          <HowThose />
         </div>
       </main>
     </>

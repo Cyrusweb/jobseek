@@ -7,7 +7,7 @@ import ListLeft from "./Json/ListLeft.json";
 
 function JobList() {
   return (
-    <main className="bg-[#13151A]  md:mx-12 p-3 md:m-auto m-3 border-[1px] rounded-lg md:p-4 border-[#2D2646]">
+    <main className=" mt-4  md:mx-12 p-3 md:m-auto m-3 border-[1px] rounded-lg md:p-4 border-[#2D2646]">
       <section>
         <div className="flex items-center justify-between border-b-[2px] pb-3 border-[#202125]">
           <p className="text-[#848484]">Jobs</p>
@@ -19,7 +19,7 @@ function JobList() {
           {ListLeft.map((job) => (
             <div
               key={job.id}
-              id={`job-${job.id}`} // id
+              id={`job-${job.id}`}
               className="jobs text-white border-[1px] border-[#2D2646] flex flex-col gap-3 mt-[20px] rounded-lg p-2"
             >
               <main className="md:flex items-center justify-between">
@@ -32,11 +32,7 @@ function JobList() {
                         alt="logo_location"
                         className="w-[16px] h-[16px]"
                       />
-                      <p>
-                        {job.location && job.location.length > 10
-                          ? `${job.location.slice(0, 10)}...`
-                          : job.location}
-                      </p>
+                      <p className="truncate">{job.location}</p>
                     </div>
                     <div className="flex items-center gap-2">
                       <img

@@ -76,20 +76,20 @@ function Nav() {
                     ) : (
                       <RiArrowDropDownLine
                         size={35}
-                        className="animate-bounce "
+                        className="animate-bounce transition-all  "
                       />
                     )}
                   </div>
                 </li>
                 {/* menu drop down */}
                 {dropdown && (
-                  <div className="pl-7 md:pl-0 md:absolute md:pt-2 top-12 right-[1.2rem]">
-                    <ul className="mt-[-10px] md:text-[18px] ">
+                  <div className="pl-7 md:pl-0 md:absolute md:pt-2 top-12 right-[1.2rem] rounded-lg md:bg-[#17191F] ">
+                    <ul className="mt-[-10px]   ">
                       <li className="text-[#A34AE3] cursor-pointer">
                         About us
                       </li>
                       <li className="cursor-pointer">FAQ</li>
-                      <li className="cursor-pointer">Contact us</li>
+                      <li className="cursor-pointer ">Contact us</li>
                     </ul>
                   </div>
                 )}
