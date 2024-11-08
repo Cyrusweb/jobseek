@@ -5,6 +5,8 @@ import WhatWeDo from "../Components/WhatWeDo";
 import About from "../Components/About";
 import JobList from "../Components/JobList";
 import HowThose from "./HowThose";
+import DisCover from "./DisCover";
+// DisCover
 // HowThose
 function Home() {
   return (
@@ -12,13 +14,12 @@ function Home() {
       <Nav />
       <Hero />
       <WhatWeDo />
-      {/* <main className="flex justify-center overflow-x-auto items-center"> */}
       <div>
         <About />
         <JobList />
         <HowThose />
+        <DisCover />
       </div>
-      {/* </main> */}
     </>
   );
 }

@@ -8,10 +8,11 @@ function HowThose() {
           <h1 className="text-white text-center text-[20px]">
             HOW DOES IT WORKS
           </h1>
-          <div className="border-[#2D2646] mt-4 w-[90%] md:w-[50%] lg:w-[30%] m-auto text-white border-[1px] rounded-lg flex justify-center gap-x-12 p-[16px] ">
+          <div className="border-[#2D2646] mt-4 w-[90%] md:w-[40%] lg:w-[22%] m-auto text-white border-[1px] rounded-lg flex justify-center gap-x-12 p-[16px] ">
             <div>
-              <div className="bg-[#1B1A2E] w-full md:text-[16px] text-[18px]  rounded-lg p-2 border-[#2D2646] border-[1px]">
-                Job seeker
+              <div className="bg-[#1B1A2E] flex gap-1 w-full md:text-[16px] text-[18px]  rounded-lg p-2 border-[#2D2646] border-[1px]">
+                <p> Job </p>
+                <p>seeker</p>
               </div>
             </div>
             <div>
@@ -38,7 +39,7 @@ function HowThose() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 cupiditate sequi praesentium ducimus explicabo?
               </p>
-              <button className="bg-white w-[142.36px] text-black font=bold mt-8 rounded-full px-2 py-2 text-[20px]">
+              <button className="bg-white w-[142.36px] text-black font=bold mt-8 rounded-full px-2 py-2 text-[18px]">
                 Apply Now
               </button>
             </div>

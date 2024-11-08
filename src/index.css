@@ -140,3 +140,7 @@ html {
 .btn {
   background: linear-gradient(180deg, #6857f6, #a549e2);
 }
+
+.text_1 {
+  color: linear-gradient(180deg, #6857f6, #a549e2);
+}
