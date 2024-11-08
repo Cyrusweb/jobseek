@@ -9,7 +9,7 @@ function About() {
           One step to your{" "}
           <span className="text-[#848484]"> future start here </span>
         </p>
-        <div className="mx-[20px]vmd:mx-0 md:flex items-center mt-[29px] font-[400] justify-between">
+        <div className="mx-[20px] md:mx-0 md:flex items-center mt-[29px] font-[400] justify-between">
           <p className="text-[12px] text-white leading-[27px] md:text-[16px] md:w-[80%] lg:w-[50%]">
             Receive a customized salary approximation based on your profile.
             Access reviews for more than 600,000 companies worldwide.
