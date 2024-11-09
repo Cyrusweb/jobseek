@@ -59,7 +59,7 @@ function DisCover() {
                 </div>
               </div>
               <article>
-                <p className="text-[#848484] border-b-[1px]  text-[13px]  border-[#4d4f55] pb-4 mt-4">
+                <p className="text-[#848484] border-b-[1px] leading-[24px]  text-[13px]  border-[#4d4f55] pb-4 mt-4">
                   You will be responsible for overseeing and optimizing various
                   operational processes to enhance productivity, efficiency, and
                   profitability.
@@ -106,7 +106,7 @@ function DisCover() {
                 </div>
               </div>
               <article>
-                <p className="text-[#848484] border-b-[1px] text-[13px] border-[#4d4f55] pb-4 mt-4">
+                <p className="text-[#848484] border-b-[1px] ] leading-[24px] text-[13px] border-[#4d4f55] pb-4 mt-4">
                   You will handle various financial tasks and play a key role in
                   financial reporting, analysis, and decision-making processes.
                 </p>
@@ -153,7 +153,7 @@ function DisCover() {
                 </div>
               </div>
               <article>
-                <p className="text-[#848484] border-b-[1px] text-[13px]  border-[#4d4f55] pb-4 mt-4">
+                <p className="text-[#848484] border-b-[1px]  leading-[24px] text-[13px]  border-[#4d4f55] pb-4 mt-4">
                   You will handle various financial tasks and play a key role in
                   financial reporting, analysis, and decision-making processes.
                 </p>
@@ -197,7 +197,7 @@ function DisCover() {
                 </div>
               </div>
               <article>
-                <p className="text-[#848484] text-[13px]  border-b-[1px] border-[#4d4f55] pb-4 mt-4">
+                <p className="text-[#848484] text-[13px]   leading-[24px]  border-b-[1px] border-[#4d4f55] pb-4 mt-4">
                   You will be responsible for overseeing and optimizing various
                   operational processes to enhance productivity, efficiency, and
                   profitability.

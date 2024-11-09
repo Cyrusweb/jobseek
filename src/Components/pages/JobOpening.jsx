@@ -55,10 +55,10 @@ function JobOpening() {
             </div>
           </article>
         </form>
-        <section className="pl-8 text-white">
+        <section className="md:pl-8 text-white">
           <p className="text-purple-600 my-4">01</p>
           <h1 className="text-[23px] mb-4">Discover Job Openings</h1>
-          <p className="text-[12px]">
+          <p className="md:text-[15px leading-[27px] text-[12px]">
             Start by searching for job openings using our comprehensive search
             engine. Simply enter relevant keywords, location, and other criteria
             to find the positions that match your interests and qualifications.

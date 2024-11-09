@@ -35,7 +35,7 @@ function HowThose() {
               </div>
             </div>
             <div className="text-white mt-8">
-              <p>
+              <p className="leading-[21px] font-medium text-[13px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 cupiditate sequi praesentium ducimus explicabo?
               </p>
@@ -55,7 +55,7 @@ function HowThose() {
               </div>
             </div>
             <div className="text-white mt-12">
-              <p>
+              <p className="leading-[21px] font-medium text-[13px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 cupiditate sequi praesentium ducimus explicabo?
               </p>
@@ -72,7 +72,7 @@ function HowThose() {
               </div>
             </div>
             <div className="text-white mt-8">
-              <p>
+              <p className="leading-[21px] font-medium text-[13px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 cupiditate sequi praesentium ducimus explicabo?
               </p>
@@ -89,7 +89,7 @@ function HowThose() {
               </div>
             </div>
             <div className="text-white mt-8">
-              <p>
+              <p className="leading-[21px]  font-medium text-[13px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 cupiditate sequi praesentium ducimus explicabo?
               </p>
