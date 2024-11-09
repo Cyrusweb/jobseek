@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import logo from "../assets/Link.svg";
+import logo from "../../assets/Link.svg";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import Btn from "./Props/Btn";
+import Btn from "../Props/Btn";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { RiArrowDropUpLine } from "react-icons/ri";
 function Nav() {

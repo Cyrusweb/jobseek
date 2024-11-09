@@ -1,7 +1,7 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
-import banner from "../assets/banner (1).svg";
+import banner from "../../assets/banner (1).svg";
 function Hero() {
   return (
     <>

@@ -1,6 +1,6 @@
 // WhatWeDo.js
 import React from "react";
-import ListLeft from "./Json/ListLeft.json";
+import ListLeft from "../Json/ListLeft.json";
 
 function WhatWeDo() {
   console.log(ListLeft.length);

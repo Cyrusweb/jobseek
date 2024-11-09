@@ -1,13 +1,13 @@
 import React from "react";
-import Nav from "../Components/Nav";
-import Hero from "../Components/Hero";
-import WhatWeDo from "../Components/WhatWeDo";
-import About from "../Components/About";
-import JobList from "../Components/JobList";
-import HowThose from "./HowThose";
-import DisCover from "./DisCover";
-// DisCover
-// HowThose
+import Nav from "./pages/Nav";
+import Hero from "./pages/Hero";
+import WhatWeDo from "./pages/WhatWeDo";
+import About from "./pages/About";
+import JobList from "./pages/JobList";
+import HowThose from "./pages/HowThose";
+import DisCover from "./pages/DisCover";
+import JobOpening from "./pages/JobOpening";
+// JobOpening
 function Home() {
   return (
     <>
@@ -19,6 +19,9 @@ function Home() {
         <JobList />
         <HowThose />
         <DisCover />
+        <div className="mt-8">
+          <JobOpening />
+        </div>
       </div>
     </>
   );
