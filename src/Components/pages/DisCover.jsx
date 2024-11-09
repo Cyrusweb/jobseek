@@ -37,7 +37,7 @@ function DisCover() {
           </div>
         </article>
         {/* section */}
-        <section className=" md:mx-12 p-3 md:m-auto m-3  ">
+        <section className=" md:mx-12 p-3 md:m-auto m-[0.27rem]  ">
           <footer className=" md:grid gap-x-4 grid-cols-2 justify-center ">
             <main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
               <div className="flex items-center justify-between  ">

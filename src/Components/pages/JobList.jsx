@@ -7,7 +7,7 @@ import ListLeft from ".././Json/ListLeft.json";
 
 function JobList() {
   return (
-    <main className=" mt-4  md:mx-12 p-3 md:m-auto m-3 border-[1px] rounded-lg md:p-4 border-[#2D2646]">
+    <main className=" mt-4  md:mx-12 p-3 md:m-auto m-[1rem] border-[1px] rounded-lg md:p-4 border-[#2D2646]">
       <section>
         <div className="flex items-center justify-between border-b-[2px] pb-3 border-[#202125]">
           <p className="text-[#848484]">Jobs</p>

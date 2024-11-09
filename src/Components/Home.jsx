@@ -20,10 +20,10 @@ function Home() {
         <JobList />
         <HowThose />
         <DisCover />
-        <div className="m-3 md:mx-8">
+        <div className="m-[0.27rem] md:mx-8">
           <JobOpening />
         </div>
-        <div className="m-3 md:mx-8">
+        <div className="m-[0.27rem] md:mx-8">
           <FooterHero />
         </div>
       </div>
