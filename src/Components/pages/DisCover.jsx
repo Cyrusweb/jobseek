@@ -40,13 +40,7 @@ function DisCover() {
         {/* section */}
         <section className=" md:mx-12 p-3 md:m-auto m-[0.27rem]  ">
           <footer className=" md:grid gap-x-4 grid-cols-2 justify-center ">
-            <motion.main
-              initial={{ opacity: 0, x: -100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              viewport={{ amount: 0.29 }}
-              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
-            >
+            <motion.main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -93,13 +87,7 @@ function DisCover() {
                 </footer>
               </article>
             </motion.main>
-            <motion.main
-              initial={{ opacity: 0, x: 100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              viewport={{ amount: 0.29 }}
-              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
-            >
+            <motion.main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -148,13 +136,7 @@ function DisCover() {
               </article>
             </motion.main>
 
-            <motion.main
-              initial={{ opacity: 0, y: -100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              viewport={{ amount: 0.29 }}
-              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
-            >
+            <motion.main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -198,13 +180,7 @@ function DisCover() {
                 </footer>
               </article>
             </motion.main>
-            <motion.main
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              viewport={{ amount: 0.29 }}
-              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
-            >
+            <motion.main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
