@@ -7,7 +7,8 @@ import JobList from "./pages/JobList";
 import HowThose from "./pages/HowThose";
 import DisCover from "./pages/DisCover";
 import JobOpening from "./pages/JobOpening";
-
+import FooterHero from "./pages/FooterHero";
+// FooterHero
 function Home() {
   return (
     <>
@@ -19,8 +20,11 @@ function Home() {
         <JobList />
         <HowThose />
         <DisCover />
-        <div className="mt-8">
+        <div className="m-3 md:mx-8">
           <JobOpening />
+        </div>
+        <div className="m-3 md:mx-8">
+          <FooterHero />
         </div>
       </div>
     </>

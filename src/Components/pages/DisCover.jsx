@@ -23,7 +23,7 @@ function DisCover() {
             </p>
           </div>
 
-          <div className="border-[#2D2646] mt-10 w-[60%] md:w-[28%] lg:w-[15%] m-auto text-white border-[1px] rounded-lg flex justify-center gap-x-12 p-[16px] ">
+          <div className="border-[#2D2646] mt-10  w-[70%]  md:w-[28%] lg:w-[15%] m-auto text-white border-[1px] rounded-lg flex justify-center gap-x-12 p-[16px] ">
             <div>
               <div className="bg-[#1B1A2E] flex gap-1 w-full md:text-[16px] text-[18px]  rounded-lg p-2 border-[#2D2646] border-[1px]">
                 <p> popular </p>

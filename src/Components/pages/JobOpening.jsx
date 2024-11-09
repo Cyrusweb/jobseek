@@ -4,7 +4,9 @@ import pro_2 from "../../assets/pro_2.svg";
 function JobOpening() {
   return (
     <>
-      <main className="bg-[#121318] backdrop-blur-[20px] rounded-lg md:grid grid-cols-2 justify-center md:mx-[3.4rem] p-3 md:m-auto m-3  border-[#2D2646]  border-[1px] ">
+      <main
+        className={`bg-[#121318] backdrop-blur-[20px] rounded-lg md:grid grid-cols-2 justify-center md:mx-[3.4rem] p-3 md:m-auto m-3  border-[#2D2646]  border-[1px] `}
+      >
         <form action="#">
           <article className="bg-[#1F1B30] p-4 rounded-lg">
             <div className=" flex justify-between items-center text-white">
