@@ -7,7 +7,7 @@ import JobList from "./pages/JobList";
 import HowThose from "./pages/HowThose";
 import DisCover from "./pages/DisCover";
 import JobOpening from "./pages/JobOpening";
-// JobOpening
+
 function Home() {
   return (
     <>
