@@ -8,7 +8,7 @@ import logo from "../../assets/Link.svg";
 function Footer() {
   return (
     <>
-      <main className="rounded-lg md:mx-[3.4rem] p-3 md:m-auto m-3">
+      <main className="rounded-lg md:mx-[3.4rem] p-3 md:m-auto m-[0.27rem]">
         <footer className="md:grid grid-cols-2 gap-8">
           <article className="border-[1px]  md:mt-16 p-4 border-[#322E4C] text-white rounded-lg">
             <h1 className="mb-2">subscribe</h1>

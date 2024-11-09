@@ -25,9 +25,9 @@ function JobOpening() {
                   <figure>
                     <img src={up} alt="up" />
                   </figure>
-                  <div className="flex gap-2">
-                    <p className="text-[12px]"> upload </p>
-                    <p className="text-[12px]"> profile</p>
+                  <div className="flex gap-1">
+                    <p className="text-[10px]"> upload </p>
+                    <p className="text-[10px]"> profile</p>
                   </div>
                 </button>
               </div>

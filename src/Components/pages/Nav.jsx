@@ -94,7 +94,7 @@ function Nav() {
                   </div>
                 )}
                 <li className=" md:mt-0 md:hidden  ">
-                  <Btn className="mt-6  cursor-pointer " />
+                  <Btn className="mt-6  cursor-pointer  hover:scale-75" />
                 </li>
               </ul>
             </div>
@@ -106,7 +106,7 @@ function Nav() {
             <div>
               <IoMdNotificationsOutline className="text-white  cursor-pointer " />
             </div>
-            <Btn className="mt-0  cursor-pointer " />
+            <Btn className="mt-0  cursor-pointer hover:scale-75" />
           </div>
         </nav>
       </main>
