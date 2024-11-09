@@ -8,7 +8,8 @@ import HowThose from "./pages/HowThose";
 import DisCover from "./pages/DisCover";
 import JobOpening from "./pages/JobOpening";
 import FooterHero from "./pages/FooterHero";
-// FooterHero
+import Footer from "./pages/Footer";
+// Footer
 function Home() {
   return (
     <>
@@ -17,14 +18,19 @@ function Home() {
       <WhatWeDo />
       <div>
         <About />
-        <JobList />
+        <div className="mt-4">
+          <JobList />
+        </div>
         <HowThose />
         <DisCover />
-        <div className="m-[0.27rem] md:mx-8">
+        <div className="m-[0.27rem] mt-8 md:mx-8">
           <JobOpening />
         </div>
-        <div className="m-[0.27rem] md:mx-8">
+        <div className="m-[0.27rem] mt-8 md:mx-8">
           <FooterHero />
+        </div>
+        <div className="m-[0.27rem] mt-8 md:mx-8">
+          <Footer />
         </div>
       </div>
     </>

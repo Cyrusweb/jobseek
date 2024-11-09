@@ -47,9 +47,7 @@ function Hero() {
                   placeholder="job title"
                 />
                 <button className="bg-white  ml-16 py-2 absolute right-[1rem]  gap-2  px-4  flex items-center rounded-full ">
-                  <p className="font-[400] text-[13px] md:text-[16px]">
-                    Find jobs
-                  </p>
+                  <p className="font-[400] text-[10px] ">Find jobs</p>
                   <FaArrowRight className="text-[#A34AE3]" />
                 </button>
               </article>
