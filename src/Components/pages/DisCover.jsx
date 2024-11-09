@@ -5,6 +5,7 @@ import three from "../../assets/three.svg";
 import location from "../../assets/location.svg";
 import price from "../../assets/price.svg";
 import remote from "../../assets/remote.svg";
+import { motion } from "framer-motion";
 function DisCover() {
   return (
     <>
@@ -39,7 +40,13 @@ function DisCover() {
         {/* section */}
         <section className=" md:mx-12 p-3 md:m-auto m-[0.27rem]  ">
           <footer className=" md:grid gap-x-4 grid-cols-2 justify-center ">
-            <main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
+            <motion.main
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ amount: 0.29 }}
+              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
+            >
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -85,8 +92,14 @@ function DisCover() {
                   </div>
                 </footer>
               </article>
-            </main>
-            <main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
+            </motion.main>
+            <motion.main
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ amount: 0.29 }}
+              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
+            >
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -133,9 +146,15 @@ function DisCover() {
                   </div>
                 </footer>
               </article>
-            </main>
+            </motion.main>
 
-            <main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
+            <motion.main
+              initial={{ opacity: 0, y: -100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ amount: 0.29 }}
+              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
+            >
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -178,8 +197,14 @@ function DisCover() {
                   </div>
                 </footer>
               </article>
-            </main>
-            <main className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl">
+            </motion.main>
+            <motion.main
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ amount: 0.29 }}
+              className=" border-[1px] p-4 mt-10 border-[#2D2646] rounded-xl"
+            >
               <div className="flex items-center justify-between  ">
                 <div className="flex items-center gap-2">
                   <figure>
@@ -223,7 +248,7 @@ function DisCover() {
                   </div>
                 </footer>
               </article>
-            </main>
+            </motion.main>
           </footer>
         </section>
       </main>

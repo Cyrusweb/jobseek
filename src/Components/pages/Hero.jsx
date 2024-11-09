@@ -19,7 +19,7 @@ function Hero() {
           <motion.section
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            viewport={{ amount: 0.5 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="border-[1px] lg:w-[60%] pr-9 mt-[45.3px] justify-center border-[#484848] items-center rounded-full flex">
