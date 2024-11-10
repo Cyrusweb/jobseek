@@ -40,7 +40,7 @@ html {
   background: #1b1a2e;
   border-radius: 8px;
   border: 1px solid #4a3a7680;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 .bmd {
   backdrop-filter: blur(5px);
@@ -66,15 +66,15 @@ html {
 
 .marquee {
   display: inline-flex;
-  animation: scroll 122s linear infinite;
+  animation: scroll 90s linear infinite;
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translate(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translate(-100%);
   }
 }
 
@@ -86,7 +86,7 @@ html {
   background: #1b1a2e;
   border-radius: 8px;
   border: 1px solid #4a3a7680;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .marquee-container_2 {
@@ -97,15 +97,15 @@ html {
 
 .marquee_2 {
   display: inline-flex;
-  animation: scroll-right 122s linear infinite;
+  animation: scroll 90s linear infinite;
 }
 
 @keyframes scroll-right {
   0% {
-    transform: translateX(-100%);
+    transform: translate(0);
   }
   100% {
-    transform: translateX(100%);
+    transform: translate(-100%);
   }
 }
 

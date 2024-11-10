@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import one from "../../assets/one.svg";
 import two from "../../assets/two.svg";
 import three from "../../assets/three.svg";
@@ -6,6 +6,8 @@ import location from "../../assets/location.svg";
 import price from "../../assets/price.svg";
 import remote from "../../assets/remote.svg";
 import { motion } from "framer-motion";
+
+// useEffect
 function DisCover() {
   return (
     <>
